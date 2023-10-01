@@ -1,0 +1,78 @@
+
+.cover-container{
+    background-color: #00304E;
+}
+
+.cover-form{
+    background-color: #00304E;
+    display: flex;
+    justify-content: center;
+}
+
+.container-max{
+    box-shadow: 5px 5px 30px black;
+    height: 70px;
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.container-delete-tareas{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    box-shadow: 5px 5px 30px black;
+    height: 70px;
+    width: 500px;
+    border-radius: 10px;
+    padding: 10px;
+    color: aliceblue;
+}
+
+.container-delete-tareas button{
+    background-color: red;
+}
+
+.container-form{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.container-form input{
+    height: 35px;
+    border-radius: 10px;
+    background-color: white;
+    border: none;
+    color: black;
+}
+
+.elementos-todo{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+    box-shadow: 5px 5px 30px black;
+    height: 70px;
+    width: 500px;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #DECBA7;
+}
+.elementos-todo p, span{
+    color: black;
+}
+
+.total-info{
+    margin-top: 15px;
+}
+.total-info span{
+    color: white;
+}
+
