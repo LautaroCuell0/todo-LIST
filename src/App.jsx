@@ -1,7 +1,7 @@
 
 import { useState } from 'react'
 import './App.css'
-import TodoList from './Components/todolist'
+import UserList from './Components/todolist'
 
 
 function App() {
@@ -10,7 +10,7 @@ function App() {
   
   return (
     <>
-      <TodoList/>
+      <UserList/>
     </>
   )
 }
